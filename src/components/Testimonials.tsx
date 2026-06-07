@@ -16,14 +16,14 @@ const testimonials = [
       "Profesionalismo absoluto. La instalación fue impecable y el resultado visual transformó completamente nuestro evento corporativo.",
     author: "María Fernanda Ruiz",
     role: "Gerente de Marketing",
-    company: "Empresas Copec",
+    company: "Grupo Techint",
   },
   {
     quote:
       "La mejor tecnología LED que hemos usado. La definición y el brillo de las pantallas hiceron que nuestra transmisión en vivo se viera espectacular.",
     author: "Andrés Parra",
     role: "Director Audiovisual",
-    company: "Mega TV",
+    company: "Telefe",
   },
   {
     quote:

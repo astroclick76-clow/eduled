@@ -70,7 +70,7 @@ export default function FinalCTA() {
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="https://wa.me/56912345678"
+              href="https://wa.me/541155551234"
               target="_blank"
               rel="noopener noreferrer"
               className="group px-10 py-4 rounded-full text-lg font-semibold glass text-white border border-white/10 hover:border-green-500/50 transition-all duration-300 flex items-center gap-2"

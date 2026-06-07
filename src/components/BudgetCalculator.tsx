@@ -194,7 +194,7 @@ export default function BudgetCalculator() {
                             type="tel"
                             value={formData.phone}
                             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                            placeholder="+56 9 1234 5678"
+                            placeholder="+54 11 5555-1234"
                             className="w-full pl-12 pr-4 py-3.5 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-electric-blue/50 transition-all"
                           />
                         </div>

@@ -19,12 +19,12 @@ export const metadata: Metadata = {
   description:
     "Alquiler, instalación y venta de pantallas LED gigantes HD para eventos, conciertos, publicidad, festivales, escenarios, streaming y activaciones comerciales. Impacto visual profesional.",
   keywords:
-    "pantallas LED, pantallas gigantes, alquiler pantallas LED, eventos, conciertos, publicidad exterior, instalación LED, Chile",
+    "pantallas LED, pantallas gigantes, alquiler pantallas LED, eventos, conciertos, publicidad exterior, instalación LED, Argentina, Buenos Aires",
   openGraph: {
     title: "EDULED | Pantallas LED Profesionales",
     description: "Transformamos tu evento en una experiencia épica con pantallas LED gigantes HD.",
     type: "website",
-    locale: "es_CL",
+    locale: "es_AR",
   },
 }
 

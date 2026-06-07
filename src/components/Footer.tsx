@@ -89,15 +89,15 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-500 text-sm">
                 <Phone size={16} className="mt-0.5 text-electric-blue flex-shrink-0" />
-                <span>+56 9 1234 5678</span>
+                <span>+54 11 5555-1234</span>
               </li>
               <li className="flex items-start gap-3 text-gray-500 text-sm">
                 <Mail size={16} className="mt-0.5 text-electric-blue flex-shrink-0" />
-                <span>contacto@eduled.cl</span>
+                <span>contacto@eduled.com.ar</span>
               </li>
               <li className="flex items-start gap-3 text-gray-500 text-sm">
                 <MapPin size={16} className="mt-0.5 text-electric-blue flex-shrink-0" />
-                <span>Santiago, Chile</span>
+                <span>Buenos Aires, Argentina</span>
               </li>
             </ul>
           </div>

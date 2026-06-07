@@ -19,11 +19,11 @@ const faqs = [
   },
   {
     q: "¿Cuál es el costo por metro cuadrado?",
-    a: "Nuestro precio base es de $100.000 CLP por metro cuadrado por día. El costo final depende de la resolución, tipo de pantalla, duración del evento y servicios adicionales.",
+    a: "Nuestro precio base es de $100.000 ARS por metro cuadrado por día. El costo final depende de la resolución, tipo de pantalla, duración del evento y servicios adicionales.",
   },
   {
-    q: "¿Hacen instalaciones en todo Chile?",
-    a: "Sí, realizamos instalaciones en todo el territorio nacional. Tenemos cobertura desde Arica hasta Punta Arenas, con equipos de instalación en las principales ciudades.",
+    q: "¿Hacen instalaciones en toda Argentina?",
+    a: "Sí, realizamos instalaciones en todo el territorio nacional. Tenemos cobertura en CABA, provincia de Buenos Aires, Córdoba, Rosario, Mendoza y las principales ciudades del país.",
   },
   {
     q: "¿Qué mantenimiento requieren las pantallas LED?",
