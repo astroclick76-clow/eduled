@@ -22,3 +22,15 @@ export function calculatePrice(width: number, height: number, days: number): num
 export function calculateSquareMeters(width: number, height: number): number {
   return width * height
 }
+
+export function videoPath(filename: string): string {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ""
+  return `${basePath}/videos/${filename}`
+}
+
+export const VIDEO_FILES = [
+  "giant-led-billboard-3.mp4",
+  "giant-led-billboard.mp4",
+  "giant-led-billboard-1.mp4",
+  "giant-led-billboard-2.mp4",
+]

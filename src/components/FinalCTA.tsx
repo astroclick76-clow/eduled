@@ -3,6 +3,7 @@
 import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
 import { ArrowRight, Calculator, MessageCircle } from "lucide-react"
+import { videoPath } from "@/lib/utils"
 
 export default function FinalCTA() {
   const ref = useRef(null)
@@ -19,7 +20,7 @@ export default function FinalCTA() {
           className="w-full h-full object-cover"
           poster=""
         >
-          <source src="/videos/giant-led-billboard-3.mp4" type="video/mp4" />
+          <source src={videoPath("giant-led-billboard-3.mp4")} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-r from-deep-black/95 via-deep-black/80 to-deep-black/95" />
         <div className="absolute inset-0 bg-gradient-to-t from-deep-black via-transparent to-deep-black" />

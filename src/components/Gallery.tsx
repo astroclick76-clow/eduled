@@ -3,6 +3,7 @@
 import { useRef, useState } from "react"
 import { motion, useInView, AnimatePresence } from "framer-motion"
 import { X, Play, ChevronLeft, ChevronRight } from "lucide-react"
+import { videoPath, VIDEO_FILES } from "@/lib/utils"
 
 const mediaItems = [
   { type: "image" as const, emoji: "🎪", title: "Concierto Masivo", desc: "Pantalla LED gigante en estadio" },
@@ -16,12 +17,7 @@ const mediaItems = [
   { type: "image" as const, emoji: "✨", title: "Activación Comercial", desc: "Experiencia interactiva con pantallas LED" },
 ]
 
-const videoFiles = [
-  "/videos/giant-led-billboard-1.mp4",
-  "/videos/giant-led-billboard-2.mp4",
-  "/videos/giant-led-billboard-3.mp4",
-  "/videos/giant-led-billboard.mp4",
-]
+const videoFiles = VIDEO_FILES.map(videoPath)
 
 function GalleryItem({
   item,

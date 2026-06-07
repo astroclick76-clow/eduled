@@ -3,13 +3,9 @@
 import { useEffect, useRef, useState } from "react"
 import { motion } from "framer-motion"
 import { ChevronDown, Play, Calculator, Image as ImageIcon } from "lucide-react"
+import { videoPath, VIDEO_FILES } from "@/lib/utils"
 
-const videos = [
-  "/videos/giant-led-billboard-3.mp4",
-  "/videos/giant-led-billboard.mp4",
-  "/videos/giant-led-billboard-1.mp4",
-  "/videos/giant-led-billboard-2.mp4",
-]
+const videos = VIDEO_FILES.map(videoPath)
 
 export default function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null)
