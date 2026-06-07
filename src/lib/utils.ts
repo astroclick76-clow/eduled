@@ -25,7 +25,7 @@ export function calculateSquareMeters(width: number, height: number): number {
 
 export function videoPath(filename: string): string {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ""
-  return `${basePath}/videos/${filename}`
+  return basePath ? `${basePath}/videos/${filename}` : `/videos/${filename}`
 }
 
 export const VIDEO_FILES = [
